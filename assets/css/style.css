@@ -1,0 +1,47 @@
+body {
+    background-color: white;
+    font-family: 'Varela Round', sans-serif;
+
+    color: #575756;
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    font-size: 3rem;
+    
+}
+
+#game-container {
+    
+    box-sizing: border-box;
+    width: 80%;
+
+    max-height: 450px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.main-image {
+    
+    height: auto;
+    width: 100%;
+  }
+
+.arrows {
+    font-size: 45px;
+    margin-bottom: 20px;
+    
+}
+  #left-arrow {
+    transform: rotate(320deg);
+    margin-right: 50px;
+  }
+  
+  #right-arrow {
+    transform: rotate(40deg);
+    margin-left: 50px;
+  }
