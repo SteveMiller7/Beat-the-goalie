@@ -62,6 +62,8 @@ body {
     width: 100%;
   }
 
+  /* Arrow controls */
+
 .arrows {
     font-size: 45px;
     margin-bottom: 20px;
@@ -70,12 +72,12 @@ body {
 }
   #left-arrow {
     transform: rotate(320deg);
-    margin-right: 50px;
+    margin-right: 80px;
   }
   
   #right-arrow {
     transform: rotate(40deg);
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   /* Reset Button */
