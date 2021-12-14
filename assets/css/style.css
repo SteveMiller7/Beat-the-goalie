@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   
     font-family: 'Varela Round', sans-serif;
@@ -60,6 +65,7 @@ body {
 .arrows {
     font-size: 45px;
     margin-bottom: 20px;
+    color: seagreen;
     
 }
   #left-arrow {
@@ -70,4 +76,14 @@ body {
   #right-arrow {
     transform: rotate(40deg);
     margin-left: 50px;
+  }
+
+  /* Reset Button */
+
+  .reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: whitesmoke;
+    color: #575756;
   }
