@@ -70,23 +70,51 @@ body {
     width: 100%;
   }
 
-  /* Arrow controls */
+  /* Arrow Buttons */
 
-.arrows {
+
+
+
+
+/*.arrows {
     font-size: 45px;
     margin-bottom: 20px;
-    color: seagreen;
-    
+    color: seagreen;  
 }
+*/
+
   #left-arrow {
     transform: rotate(320deg);
     margin-right: 80px;
+    border-radius: 50%;
+    padding: 16px 22px;
+    border: none;
+    font-size: 25px;
+    color: #575756;
+    background-color: gainsboro;
   }
   
   #right-arrow {
     transform: rotate(40deg);
     margin-left: 80px;
+    border-radius: 50%;
+    padding: 16px 22px;
+    border: none;
+    font-size: 25px;
+    color: #575756;
+    background-color: gainsboro;
   }
+
+  #middle-arrow {
+    border-radius: 50%;
+    padding: 16px 22px;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 25px;
+    color: #575756;
+    background-color: gainsboro;
+  }
+  
 
   /* Reset Button */
 
@@ -94,6 +122,7 @@ body {
     margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: whitesmoke;
-    color: #575756;
+    background-color: #575756;
+    color: lightgreen;
+    border-radius: 8px;
   }
