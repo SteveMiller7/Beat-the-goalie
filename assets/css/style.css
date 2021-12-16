@@ -8,6 +8,8 @@ body {
     font-family: 'Varela Round', sans-serif;
     color: #575756;
     text-align: center;
+    display: block;
+    background-color: whitesmoke;
 }
 
 
@@ -18,7 +20,7 @@ body {
     text-align: center;
     font-size: 45px;
     padding: 10px 0 10px 0;
-    background-color: white;
+    background-color: whitesmoke;
     
 }
 
@@ -26,7 +28,7 @@ body {
 
 .scores {
   text-align: center;
-  background-color: whitesmoke;
+  background-color: white;
   margin-bottom: 10px; 
   padding-top: 10px;
   padding-bottom: 10px;
@@ -55,7 +57,7 @@ body {
     
     box-sizing: border-box;
     width: 100%;
-
+    position: relative;
     max-height: 450px;
     max-width: 900px;
     margin-left: auto;
@@ -65,10 +67,12 @@ body {
 }
 
 #main-image {
-    
+    display: block;
     height: auto;
     width: 100%;
   }
+
+  .container .fa-download { position: absolute; bottom:0; left:0; }
 
   /* Arrow Buttons */
 
