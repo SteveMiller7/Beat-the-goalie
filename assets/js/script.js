@@ -14,15 +14,14 @@ for (let button of buttons){
 
 function playGame(playerShotChoice) {
 
-
     let goalieChoice = Math.floor(Math.random() * 3);
 
     mainImage.src = `assets/images/${goalieDirection[goalieChoice]}.png`;
     mainImage.alt = goalieDirection[goalieChoice];
 
-
     mainImage.src = `assets/images/${direction[playerShotChoice]}.png`;
     mainImage.alt = direction[playerShotChoice];
+    
 
     //let result = checkGoal(goalieDirection[goalieChoice], direction[playerShotChoice]);
 
