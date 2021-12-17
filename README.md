@@ -4,7 +4,7 @@ Beat the Goalie is a simple football based game where the aim is to score agains
 Choose left, middle or right direction and hope the keeper doesnt save your shot. Its a game that can be played by all ages and, as its fully responsive, it can be played on a phone, tablet or computer. 
 Play it on the sofa, at the park, on the toilet, behind your wifes back or even at your kids nativity play. 
 
-![Screens mockup image](/workspace/Beat-the-goalie/assets/images/Screens mockup-01.png)
+![Screens mockup image](https://imgur.com/QSGo7eR)
 ## [Visit the site at] (https://stevemiller7.github.io/Beat-the-goalie/)
 
 ## FEATURES
@@ -17,12 +17,12 @@ The header includes the game title "BEAT THE GOALIE". I chose the font as it fit
 
 ## Game Images
 
-![Game images for all shoot and save options] (/workspace/Beat-the-goalie/assets/images/Image stills-01.png)
+![Game images for all shoot and save options] (https://imgur.com/GdhpC3M)
 
 The visual aspect of the game is made up of images I custom made on Adobe Illustrator using assets from Adobbe Stock.
 When specific criteria are met the javascript calls the correct image and its displayed. 
 
-![Game placeholder image] (/workspace/Beat-the-goalie/assets/images/Placeholder Image Readme-01.png)
+![Game placeholder image] (https://imgur.com/gaMVaWu)
 
 The main placeholder image for the game was also custom made in Adobe Illustrator. It shows the ball on the ground before a shot is taken. 
 
