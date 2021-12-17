@@ -1,8 +1,7 @@
 
 const mainImage = document.getElementById("main-image");
 const buttons = document.getElementsByTagName("button");
-//const goalieDirection = ["Goalie_left", "Goalie_middle", "Goalie_right"]
-//let direction = ["Ball_left", "Ball_middle", "Ball_right"];
+
 
 
 for (let button of buttons) {
@@ -14,15 +13,7 @@ for (let button of buttons) {
 
 function playGame(playerShotChoice) {
 
-    /**
-     * This code block would place 2 seperate images in to the smae container but they dont both appear. 
-    
-    mainImage.src = `assets/images/${goalieDirection[goalieChoice]}.png`;
-    mainImage.alt = goalieDirection[goalieChoice];
-
-    mainImage.src = `assets/images/${direction[playerShotChoice]}.png`;
-    mainImage.alt = direction[playerShotChoice];
-*/
+  
 
 //chooses the direction the goalie will dive
 let goalieChoice = Math.floor(Math.random() * 3)+1;
@@ -50,26 +41,38 @@ let goalieChoice = Math.floor(Math.random() * 3)+1;
 
     }
     
-    let result = checkGoal(goalieChoice, direction[playerShotChoice]);
+    //checkGoal();
 
-   // updateScores(result);
-
-
+    //updateScores(result);
+    incrementPlayerScore()
+    incrementGoalieScore()
 }
-
+/*
 function checkGoal() {
 
-    let PlayerChoice = playerShotChoice;
-	let computerChoice = goalieChoice;
-	let isCorrect = PlayerChoice === computerChoice;
+    let playerChoice = playerShotChoice.value;
+	let computerChoice = goalieChoice.value;
+	let isGoal = (playerChoice === computerChoice);
 
-	if (isCorrect) {
+	if (isGoal) {
 		console.log("Goalie saved the shot!");
 		incrementGoalieScore();
 	} else {
-		console.log("GOAAAAAAAL!")
+		console.log("GOAAAAAAAL!");
 		incrementPlayerScore();
 	}
+   
+}
+*/
 
+// Increase player score with each goal scored
+function incrementPlayerScore() {
+    let oldScore = parseInt(document.getElementById("player").innerText);
+	document.getElementById("player").innerText = ++oldScore;
 }
 
+// Increase goalie score with ech save.
+function incrementGoalieScore() {
+    let oldScore = parseInt(document.getElementById("goalie").innerText);
+	document.getElementById("goalie").innerText = ++oldScore;
+}
