@@ -50,16 +50,26 @@ let goalieChoice = Math.floor(Math.random() * 3)+1;
 
     }
     
-    //let result = checkGoal(goalieDirection[goalieChoice], direction[playerShotChoice]);
+    let result = checkGoal(goalieChoice, direction[playerShotChoice]);
 
-    //updateScores(result);
+   // updateScores(result);
 
 
 }
-/*
+
 function checkGoal() {
 
-    let
+    let PlayerChoice = playerShotChoice;
+	let computerChoice = goalieChoice;
+	let isCorrect = PlayerChoice === computerChoice;
+
+	if (isCorrect) {
+		console.log("Goalie saved the shot!");
+		incrementGoalieScore();
+	} else {
+		console.log("GOAAAAAAAL!")
+		incrementPlayerScore();
+	}
+
 }
 
-*/
