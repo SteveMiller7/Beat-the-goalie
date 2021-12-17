@@ -2,7 +2,7 @@
 const mainImage = document.getElementById("main-image");
 const buttons = document.getElementsByTagName("button");
 
-
+// Button click function to identify which direction player wants to shoot and trigger random number for goalie movement.
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
@@ -12,8 +12,6 @@ for (let button of buttons) {
 }
 
 function playGame(playerShotChoice) {
-
-
 
     //chooses the direction the goalie will dive
     let goalieChoice = Math.floor(Math.random() * 3) + 1;

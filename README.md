@@ -5,7 +5,7 @@ Choose left, middle or right direction and hope the keeper doesnt save your shot
 Play it on the sofa, at the park, on the toilet, behind your wifes back or even at your kids nativity play. 
 
 ![Screens mockup image](https://i.imgur.com/QSGo7eR.png)
-## [Visit the site at] (https://stevemiller7.github.io/Beat-the-goalie/)
+## Visit the site at (https://stevemiller7.github.io/Beat-the-goalie/)
 
 ## FEATURES
 
@@ -19,8 +19,8 @@ The header includes the game title "BEAT THE GOALIE". I chose the font as it fit
 
 ![Game images for all shoot and save options](https://i.imgur.com/GdhpC3M.png)
 
-The visual aspect of the game is made up of images I custom made on Adobe Illustrator using assets from Adobbe Stock.
-When specific criteria are met the javascript calls the correct image and its displayed. 
+The visual aspect of the game is made up of images I custom made on Adobe Illustrator using assets from Adobe Stock.
+When specific criteria are met the javascript calls the correct image and its displayed. The scores are then adjusted to suit. 
 
 ![Game placeholder image](https://i.imgur.com/gaMVaWu.png)
 
