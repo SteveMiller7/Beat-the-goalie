@@ -1,8 +1,8 @@
 
 const mainImage = document.getElementById("main-image");
 const buttons = document.getElementsByTagName("button");
-const goalieDirection = ["Goalie_left", "Goalie_middle", "Goalie_right"]
-let direction = ["Ball_left", "Ball_middle", "Ball_right"];
+//const goalieDirection = ["Goalie_left", "Goalie_middle", "Goalie_right"]
+//let direction = ["Ball_left", "Ball_middle", "Ball_right"];
 
 
 for (let button of buttons) {
@@ -14,6 +14,7 @@ for (let button of buttons) {
 
 function playGame(playerShotChoice) {
 
+    //chooses the direction the goalie will dive
     let goalieChoice = Math.floor(Math.random() * 3);
 
     /**
@@ -27,16 +28,29 @@ function playGame(playerShotChoice) {
 */
 
 
-// New code to place a single predesigned image in to the container depending on player and cpmouter choice values.
+// New code to place a single predesigned image in to the container depending on player and computer choice values.
 
-    if (playerShotChoice = [0], goalieChoice = [0]) {
+    if (goalieChoice===0, playerShotChoice==0) {
         mainImage.src = "assets/images/GLBL-01.png";
+    } else if (goalieChoice===0, playerShotChoice==1) {
+        mainImage.src = "assets/images/GLBM-01.png";
+    } else if (goalieChoice===0, playerShotChoice==2) {
+        mainImage.src = "assets/images/GLBR-01.png";
+    } else if (goalieChoice===1, playerShotChoice==0) {
+        mainImage.src = "assets/images/GMBL-01.png";
+    } else if (goalieChoice===1, playerShotChoice==1) {
+        mainImage.src = "assets/images/GMBM-01.png";
+    } else if (goalieChoice===1, playerShotChoice==2) {
+        mainImage.src = "assets/images/GMBR-01.png";
+    } else if (goalieChoice===2, playerShotChoice==0) {
+        mainImage.src = "assets/images/GRBL-01.png";
+    } else if (goalieChoice===2, playerShotChoice==1) {
+        mainImage.src = "assets/images/GRBM-01.png";
+    } else if (goalieChoice===2, playerShotChoice==2) {
+        mainImage.src = "assets/images/GRBR-01.png";
+
     }
-
-
-
-
-
+    
     //let result = checkGoal(goalieDirection[goalieChoice], direction[playerShotChoice]);
 
     //updateScores(result);
