@@ -14,9 +14,6 @@ for (let button of buttons) {
 
 function playGame(playerShotChoice) {
 
-    //chooses the direction the goalie will dive
-    let goalieChoice = Math.floor(Math.random() * 3);
-
     /**
      * This code block would place 2 seperate images in to the smae container but they dont both appear. 
     
@@ -27,26 +24,28 @@ function playGame(playerShotChoice) {
     mainImage.alt = direction[playerShotChoice];
 */
 
+//chooses the direction the goalie will dive
+let goalieChoice = Math.floor(Math.random() * 3)+1;
 
 // New code to place a single predesigned image in to the container depending on player and computer choice values.
 
-    if (goalieChoice===0, playerShotChoice==0) {
+    if (goalieChoice === 1 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GLBL-01.png";
-    } else if (goalieChoice===0, playerShotChoice==1) {
+    } else if (goalieChoice === 1 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GLBM-01.png";
-    } else if (goalieChoice===0, playerShotChoice==2) {
+    } else if (goalieChoice === 1 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GLBR-01.png";
-    } else if (goalieChoice===1, playerShotChoice==0) {
+    } else if (goalieChoice === 2 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GMBL-01.png";
-    } else if (goalieChoice===1, playerShotChoice==1) {
+    } else if (goalieChoice === 2 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GMBM-01.png";
-    } else if (goalieChoice===1, playerShotChoice==2) {
+    } else if (goalieChoice === 2 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GMBR-01.png";
-    } else if (goalieChoice===2, playerShotChoice==0) {
+    } else if (goalieChoice === 3 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GRBL-01.png";
-    } else if (goalieChoice===2, playerShotChoice==1) {
+    } else if (goalieChoice === 3 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GRBM-01.png";
-    } else if (goalieChoice===2, playerShotChoice==2) {
+    } else if (goalieChoice === 3 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GRBR-01.png";
 
     }
