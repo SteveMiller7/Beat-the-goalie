@@ -16,11 +16,25 @@ function playGame(playerShotChoice) {
 
     let goalieChoice = Math.floor(Math.random() * 3);
 
+    /**
+     * This code block would place 2 seperate images in to the smae container but they dont both appear. 
+    
     mainImage.src = `assets/images/${goalieDirection[goalieChoice]}.png`;
     mainImage.alt = goalieDirection[goalieChoice];
 
     mainImage.src = `assets/images/${direction[playerShotChoice]}.png`;
     mainImage.alt = direction[playerShotChoice];
+*/
+
+
+// New code to place a single predesigned image in to the container depending on player and cpmouter choice values.
+
+    if (playerShotChoice = [0], goalieChoice = [0]) {
+        mainImage.src = "assets/images/GLBL-01.png";
+    }
+
+
+
 
 
     //let result = checkGoal(goalieDirection[goalieChoice], direction[playerShotChoice]);
