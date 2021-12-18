@@ -65,6 +65,6 @@ function playGame(playerShotChoice) {
         console.log("Shot saved!");
 
     }
-    
+
 }
 

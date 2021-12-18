@@ -16,11 +16,12 @@ body {
 /* Heading */
 .heading {
   
-    font-family: 'Monoton', cursive;
+  font-family: 'Kanit', sans-serif;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     padding: 10px 0 10px 0;
     background-color: whitesmoke;
+    word-spacing: 15px;
     
 }
 
