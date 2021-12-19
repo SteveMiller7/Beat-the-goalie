@@ -11,9 +11,9 @@ Play it on the sofa, at the park, on the toilet, behind your wifes back or even 
 
 ### Header
 
-![Header image with title](https://i.imgur.com/WsNrdXE.png)
+![Header image with title](https://i.imgur.com/neTj2Yx.png)
 
-The header includes the game title "BEAT THE GOALIE". I chose the font as it fits the football theme. I thought the lines through the letters reminded me of lines on a football pitch. It is also bold and eye catching.
+The header includes the game title "BEAT THE GOALIE". I chose the font as it is nice and bold. The element is responsive and line spacing has been set to look well spaced when on smaller screens. 
 
 ### Game Images
 
