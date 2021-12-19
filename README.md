@@ -13,6 +13,23 @@ Play it on the sofa, at the park, on the toilet or even when you're meant to be 
 
 This game will add a little bit of fun in to your day and is accessible on all devices. Its simple, fun and can be played by all ages. With a winner established in each game it encourages the user back to seek revenge if the goalie bests them.
 
+### New User Benefits
+
+- Good source of innocent fun in a safe environment 
+- Can benefit in learning to use computer based games for younger kids
+- Fills downtime
+- Offers competitive fun against the computer
+- Encourages you to think matimatically around percentages, developing the brain
+
+### Returning User Benefits
+
+- Encourges taking time to relax from the stresses of day to day life
+- Promotes 'Me time'
+- Try to beat previous best winning margin
+- Beat your friends best winning margins
+- Will keep the kids entertained for a while, giving parents time for a coffee
+
+
 ## FEATURES
 
 ### Header
