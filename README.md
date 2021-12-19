@@ -18,6 +18,7 @@ The header includes the game title "BEAT THE GOALIE". I chose the font as it is 
 ### Game Images
 
 ![Game images for all shoot and save options](https://i.imgur.com/GdhpC3M.png)
+![Win and Lose images](https://i.imgur.com/bpWHIyU.png, https://i.imgur.com/nEM3crD.png)
 
 The visual aspect of the game is made up of images I custom made on Adobe Illustrator using assets from Adobe Stock.
 When specific criteria are met the javascript calls the correct image and its displayed. The scores are then adjusted to suit. 
