@@ -80,7 +80,7 @@ The main placeholder image for the game was also custom made in Adobe Illustrato
 
 ![Game placeholder image](https://i.imgur.com/SB9RMam.png)
 
-The score bar contains the 'Player' and 'Goalie' scores. These scores are incremented upon a goal being scored by the user or a save being made by the goalie. The user must try to score 10 goals before the goalie makes 5 saves. 
+The score bar contains the 'Player' and 'Goalie' scores. These scores are incremented upon a goal being scored by the user or a save being made by the goalie. The user must try to score 10 goals before the goalie makes 5 saves. The points targets were decided after testing the game a number of times to establish the difiiculty. Originally it was first to reach 10 but it was too easy to win. There ar 6 winning images for the player to the 3 winning images for the goalie (a ratio of 2 to 1). I found that targets of 10 points for the player and 5 points for the goalie worked really well and balanced the game.
 
 ### Buttons
 
