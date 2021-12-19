@@ -29,6 +29,12 @@ This game will add a little bit of fun in to your day and is accessible on all d
 - Beat your friends best winning margins
 - Will keep the kids entertained for a while, giving parents time for a coffee
 
+## WIREFRAME
+
+![Original site layotu plan](https://i.imgur.com/K06ohh7.png)
+
+Using Adobe Illustrator I created my website plan. I had a good idea of the styling in mind when first imagining the site. Modern, clean lines and aesthetically pleasing were important. As its a game for all ages I thought the cartoon style for the game would be most suitable. 
+
 
 ## FEATURES
 
@@ -64,13 +70,3 @@ Choosing a direction to shoot will send the ball towards the goal and will resul
 Included below the shoot buttons is a 'LETS GO AGAIN' button which refreshes the page and resets the score once the game is over. 
 
 
-
-
-
-
-
-## Wireframe
-
-![Original site layotu plan](https://i.imgur.com/K06ohh7.png)
-
-Using Adobe Illustrator I created my website plan. I had a good idea of the styling in mind when first imagining the site. Modern, clean lines and aesthetically pleasing were important. As its a game for all ages I thought the cartoon style for the game would be most suitable. 
