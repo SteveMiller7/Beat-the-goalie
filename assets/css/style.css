@@ -24,6 +24,7 @@ body {
     word-spacing: 15px;
     letter-spacing: 3px;
     
+    
 }
 
 /* Scores section*/
@@ -142,9 +143,17 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
+  
 
   #mobile-instructions {
     display: none;
-    font-size: 10px;
+    
   }
 }
+
+
+@media screen and (max-width: 600px) {
+
+footer {
+  font-size: 12px;
+}}
