@@ -27,7 +27,17 @@ When specific criteria are met the javascript calls the correct image and its di
 
 The main placeholder image for the game was also custom made in Adobe Illustrator. It shows the ball on the ground before a shot is taken. 
 
+### Score Bar
 
+![Game placeholder image](https://i.imgur.com/SB9RMam.png)
+
+The score bar contains the 'Player' and 'Goalie' scores. These scores are incremented upon a goal being scored by the user or a save being made by the goalie. The user must try to score 10 goals before the goalie makes 5 saves. 
+
+### Shoot Buttons
+
+![Game placeholder image](https://i.imgur.com/vUA1Nf3.png)
+
+Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows  work well with the overall look of the page. 
 
 
 
