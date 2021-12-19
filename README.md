@@ -1,11 +1,17 @@
 # BEAT THE GOALIE
 
-Beat the Goalie is a simple football based game where the aim is to score against the goal keeper.
+Beat the Goalie is a simple football based game where the aim is to score 10 against the goal keeper before he makes 5 saves.
+This an interactive Front-End web application designed using HTML, CSS and JavaScript and intended to inject a little bit of fun in to your day. 
 Choose left, middle or right direction and hope the keeper doesnt save your shot. Its a game that can be played by all ages and, as its fully responsive, it can be played on a phone, tablet or computer. 
-Play it on the sofa, at the park, on the toilet, behind your wifes back or even at your kids nativity play. 
+Play it on the sofa, at the park, on the toilet or even when you're meant to be working. 
+
 
 ![Screens mockup image](https://i.imgur.com/pWgWpzh.png)
 ## Visit the site at (https://stevemiller7.github.io/Beat-the-goalie/)
+
+## Application Objectives
+
+This game will add a little bit of fun in to your day and is accessible on all devices. Its simple, fun and can be played by all ages. With a winner established in each game it encourages the user back to seek revenge if the goalie bests them.
 
 ## FEATURES
 
@@ -33,11 +39,12 @@ The main placeholder image for the game was also custom made in Adobe Illustrato
 
 The score bar contains the 'Player' and 'Goalie' scores. These scores are incremented upon a goal being scored by the user or a save being made by the goalie. The user must try to score 10 goals before the goalie makes 5 saves. 
 
-### Shoot Buttons
+### Buttons
 
 ![Game placeholder image](https://i.imgur.com/vUA1Nf3.png)
 
 Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows  work well with the overall look of the page. 
+Included below the shoot buttons is a 'LETS GO AGAIN' button which refreshes the page and resets the score once the game is over. 
 
 
 
