@@ -86,8 +86,9 @@ The score bar contains the 'Player' and 'Goalie' scores. These scores are increm
 
 ![Game placeholder image](https://i.imgur.com/vUA1Nf3.png)
 
-Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows  work well with the overall look of the page. 
-Included below the shoot buttons is a 'LETS GO AGAIN' button which refreshes the page and resets the score once the game is over. 
+Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows work well with the overall look of the page. 
+Added below the shoot buttons is a 'LETS GO AGAIN' button which turns green when a winning score is reached, refreshes the page and resets the score so a new game can commence. 
+
 
 ### Footer
 
