@@ -22,6 +22,7 @@ body {
     padding: 5px 0 5px 0;
     background-color: whitesmoke;
     word-spacing: 15px;
+    letter-spacing: 3px;
     
 }
 
@@ -39,8 +40,8 @@ body {
 .scores-div {
 
   display: inline-block;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 
@@ -123,6 +124,7 @@ body {
     color: #575756;
     background-color: gainsboro;
     margin-bottom: 25px;
+    font-weight: 600;
 }
   
 /* Footer */
@@ -133,5 +135,16 @@ footer {
   padding: 10px 0 10px 0;
   position: absolute;
   width: 100%;
-}
+  bottom: 0;
+
   
+}
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 600px) {
+
+  #mobile-instructions {
+    display: none;
+    font-size: 10px;
+  }
+}
