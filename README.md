@@ -4,7 +4,7 @@ Beat the Goalie is a simple football based game where the aim is to score agains
 Choose left, middle or right direction and hope the keeper doesnt save your shot. Its a game that can be played by all ages and, as its fully responsive, it can be played on a phone, tablet or computer. 
 Play it on the sofa, at the park, on the toilet, behind your wifes back or even at your kids nativity play. 
 
-![Screens mockup image](https://i.imgur.com/QSGo7eR.png)
+![Screens mockup image](https://i.imgur.com/pWgWpzh.png)
 ## Visit the site at (https://stevemiller7.github.io/Beat-the-goalie/)
 
 ## FEATURES
