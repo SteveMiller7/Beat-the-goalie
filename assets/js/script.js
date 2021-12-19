@@ -89,11 +89,11 @@ function gameOver() {
     let gScore = parseInt(document.getElementById("goalie").innerText);
     let pScore = parseInt(document.getElementById("player").innerText);
 
-    if (pScore == 2) {
+    if (pScore == 10) {
         mainImage.src = "assets/images/WIN-01.png";
         reset;
 
-    } else if (gScore == 2) {
+    } else if (gScore == 5) {
         mainImage.src = "assets/images/LOSE-01.png";
         reset;
     }
