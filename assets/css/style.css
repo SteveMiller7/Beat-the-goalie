@@ -73,16 +73,6 @@ body {
   /* Arrow Buttons */
 
 
-
-
-
-/*.arrows {
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: seagreen;  
-}
-*/
-
   #left {
     transform: rotate(320deg);
     margin-right: 50px;
@@ -158,3 +148,19 @@ footer {
 footer {
   font-size: 12px;
 }}
+
+@media only screen and (max-width: 1100px) and (min-width: 700px)  {
+
+  .heading {
+    padding: 50px 0 50px 0;
+    font-size: 60px;
+  }
+  
+  #middle { 
+    margin-top: 200px;
+}
+  #game-container {
+
+    margin-top: 60px;
+
+}
