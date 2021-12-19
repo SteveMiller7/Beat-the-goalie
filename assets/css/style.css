@@ -19,10 +19,11 @@ body {
   font-family: 'Kanit', sans-serif;
     text-align: center;
     font-size: 40px;
-    padding: 5px 0 5px 0;
+    padding: 10px 0 10px 0;
     background-color: whitesmoke;
     word-spacing: 15px;
     letter-spacing: 3px;
+    line-height: 40px;
     
     
 }
@@ -52,7 +53,7 @@ body {
   
     
     box-sizing: border-box;
-    width: 85%;
+    width: 90%;
     position: relative;
     max-height: 450px;
     max-width: 900px;
