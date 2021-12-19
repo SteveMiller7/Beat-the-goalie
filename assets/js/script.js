@@ -70,12 +70,17 @@ function incrementGScore() {
 function winLose() {
     let gScore = parseInt(document.getElementById("goalie").innerText);
     let pScore = parseInt(document.getElementById("player").innerText);
+    let letsGo = document.getElementById("lets-go")
 
     if (pScore == 10) {
         mainImage.src = "assets/images/WIN-01.png";
+        letsGo.style.backgroundColor = "green";
+        letsGo.style.color = "white";
 
     } else if (gScore == 5) {
         mainImage.src = "assets/images/LOSE-01.png";
+        letsGo.style.backgroundColor = "green";
+        letsGo.style.color = "white";
     }
 }
 

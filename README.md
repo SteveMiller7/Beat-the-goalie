@@ -93,7 +93,7 @@ Included below the shoot buttons is a 'LETS GO AGAIN' button which refreshes the
 
 ![Game placeholder image](https://i.imgur.com/n3fPBFU.png)
 
-Included in the footr are the instructions on how to play.
+Included in the footer are the instructions on how to play.
 - Press a direction arrow to shoot
 - Score 10 before the keeper saves 5
 
