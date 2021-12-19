@@ -35,8 +35,28 @@ This game will add a little bit of fun in to your day and is accessible on all d
 
 Using Adobe Illustrator I created my website plan. I had a good idea of the styling in mind when first imagining the site. Modern, clean lines and aesthetically pleasing were important. As its a game for all ages I thought the cartoon style for the game would be most suitable. 
 
+# Aesthetics
+The look of the site was created with the aim of being clean, fun and modern.
 
-## FEATURES
+I didnt want to make it too fussy and take away the focus from the nice custom made game visuals. 
+
+## Colour Palette
+- Grey color: #575756
+- Background-color gainsboro
+- White
+
+## Fonts
+- Heading - Kanit (Google Fonts)
+- Body - Varela Round (Google Fonts)
+
+## Images
+Paid licensed images were sourced from stock.adobe.com and formatted on Adobe Illustrator. I have used Imgur as a hosting site for the images included in the README. 
+
+## Icons 
+
+Arrow icons were soiurced from fontawesome.com
+
+# FEATURES
 
 ### Header
 
@@ -69,4 +89,11 @@ The score bar contains the 'Player' and 'Goalie' scores. These scores are increm
 Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows  work well with the overall look of the page. 
 Included below the shoot buttons is a 'LETS GO AGAIN' button which refreshes the page and resets the score once the game is over. 
 
+### Footer
+
+![Game placeholder image](https://i.imgur.com/n3fPBFU.png)
+
+Included in the footr are the instructions on how to play.
+- Press a direction arrow to shoot
+- Score 10 before the keeper saves 5
 
