@@ -54,7 +54,7 @@ Paid licensed images were sourced from stock.adobe.com and formatted on Adobe Il
 
 ## Icons 
 
-Arrow icons were soiurced from fontawesome.com
+Arrows and favicon were sourced from fontawesome.com
 
 # FEATURES
 
@@ -97,4 +97,52 @@ Added below the shoot buttons is a 'LETS GO AGAIN' button which turns green when
 Included in the footer are the instructions on how to play.
 - Press a direction arrow to shoot
 - Score 10 before the keeper saves 5
+
+## Technologies Used
+
+### HTML 5
+
+- Structure Language
+
+### CSS
+
+- Styling Language
+
+### Google Fonts
+- As a font resource
+
+### Font Awesome
+
+- Icons for headings and socials links
+
+### Adobe Stock
+
+- Vector dowloads
+
+### Github
+
+- As a software hosting platform to keep project in a remote location
+
+### Gitpod
+
+- As a development hosting platform
+
+### Adobe Illustrator
+
+- To create wireframe, screens mock up, game images and README images
+
+### Imgur
+- Image hosting
+
+### jshint.com
+
+-  Validation of Javascript
+
+### jigsaw.w3.org
+
+- Validation of css
+
+### validator.w3.org
+
+- Validation of html
 
