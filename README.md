@@ -174,10 +174,18 @@ I tested on hardware devices such as: iMac, macbook pro, i hpone 8, i phone 11, 
 
 ## User Testing
 
-An issue I noticed on iPhone and iPad was the button styling didnt come across for my 'LETS GO AGAIN' button. After researching the issue via stackoverflow.com I managed to resolve it by adding code to my css file.
-
 I offered the game to friends and family throughout the process of construction and worked on various areas of feedback. 
 
 - One was to develop the game scoring system to be fair. Originally it was too easy to win when both tragets were set to 10 as the player had double the chance of winning. The game consits of 6 winning images for the player and 3 for the goalie which is a 2/1 ratio so i reflected the winning score targets to match at 10 goals for the player and 5 saves for the goalie.
 
 - Another addition from the feedback was to add a 'Win' or 'Lose' image when the score target had been met as the game would go on forever. At this point I realised I needed to add the button to restart the game. I then decided that making this button turn green when a winner was declared would draw the users attention to it and encourage them to press it to refresh the game and scores. 
+
+## Issues Found During Development
+
+An issue I noticed on iPhone and iPad was the button styling didnt come across for my 'LETS GO AGAIN' button. After researching the issue via stackoverflow.com I managed to resolve it by adding code to my css file.
+
+The footer 'HOW TO PLAY' text styling had to be adjust to suit smaller screens. This was sorted with a medi query. 
+
+Element spacing on an iPad was adjusted to provide a better layout with media query. 
+
+My original plan was to have the game placholder image be replaced with a solid png image of the goalie and a transparent png image of the ball overlaying it when an arrow button was pressed. However this turned out to be a challenge so i rethought it and decided to use individual images for every possible combination of ball and goalie placments(9). 
