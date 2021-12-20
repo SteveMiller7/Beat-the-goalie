@@ -210,5 +210,18 @@ I used Lighthouse to check the performance of the site.
 
 This warning appeared in regard to the meta data. I added keywords and a description to the metadata which in turn brought the SEO score up from 90 to 100.
 
+### Final Results
+
 ![Update Lighthouse score](https://i.imgur.com/CiXLCOb.png)
 
+Good results accross the board after the change to the meta information warning. 
+
+## Code Validation
+
+Regular validation was carried out on html, css and js using the following websites
+
+- validator.w3.org
+- jigsaw.w3.org
+- jshint.com
+
+jshint.com was especially helpful with finding faults in functions and rectifying them. 
