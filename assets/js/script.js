@@ -74,15 +74,15 @@ function incrementPScore() {
     document.getElementById("player").innerText = ++oldPScore;
     resetGame();
     winLose();
-    return nextGame();
+    
 }
 
 function incrementGScore() {
     let oldGScore = parseInt(document.getElementById("goalie").innerText);
     document.getElementById("goalie").innerText = ++oldGScore;
     resetGame();
-    winLose();  
-    return nextGame();
+    winLose();
+    
 }
 
 function resetGame() {
@@ -99,14 +99,14 @@ function winLose() {
     let pScore = parseInt(document.getElementById("player").innerText);
     let letsGo = document.getElementById("lets-go");
     
-    if (pScore == 10) {
+    if (pScore == 1) {
         mainImage.src = "assets/images/WIN-01.png";
         mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
         
 
-    } else if (gScore == 5) {
+    } else if (gScore == 1) {
         mainImage.src = "assets/images/LOSE-01.png";
         mainImage.alt = "Lose";
         letsGo.style.backgroundColor = "green";
