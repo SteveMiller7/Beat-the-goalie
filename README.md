@@ -225,3 +225,22 @@ Regular validation was carried out on html, css and js using the following websi
 - jshint.com
 
 jshint.com was especially helpful with finding faults in functions and rectifying them. 
+
+***
+
+#  Deployment
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub. To deploy the project I had to:
+
+- Log in to GitHub and click on repository to deploy (Beat-the-goalie)
+- Select `Settings` and find GitHub Pages section down the left hand column.
+- From the Source select `none` and then `main` branch.
+- Click `save` and page was deployed after auto-refresh.
+
+Your site is published at https://stevemiller7.github.io/Beat-the-goalie/
+
+To run localy:
+
+Log in to GitHub and click on repository to download (Beat-the-goalie)
+select `Code` and click Download the ZIP file.
+after download you can extract the file and use it in your local environment
+Alternatively you can Clone or Fork this repository (Beat-the-goalie) into your github account.
