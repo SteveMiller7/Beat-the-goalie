@@ -6,6 +6,13 @@ let buttons = document.getElementsByTagName("button");
 
 for (let button of buttons) {
     button.addEventListener("click", function () {
+        //disables buttons for 3 seconds after shot is taken
+        document.getElementById("left").disabled = true;
+        setTimeout(function(){document.getElementById("left").disabled = false;},2000);
+        document.getElementById("middle").disabled = true;
+        setTimeout(function(){document.getElementById("middle").disabled = false;},2000);
+        document.getElementById("right").disabled = true;
+        setTimeout(function(){document.getElementById("right").disabled = false;},2000);
         let playerShotChoice = this.getAttribute("data-choice");
         playGame(playerShotChoice);
     });
@@ -16,7 +23,7 @@ function playGame(playerShotChoice) {
     //chooses the direction the goalie will dive
     let goalieChoice = Math.floor(Math.random() * 3) + 1;
 
-    // New code to place a single predesigned image in to the container depending on player and computer choice values.
+    // calls the correct image for the function
 
     if (goalieChoice === 1 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GLBL-01.png";
@@ -61,14 +68,29 @@ function playGame(playerShotChoice) {
 function incrementPScore() {
     let oldPScore = parseInt(document.getElementById("player").innerText);
     document.getElementById("player").innerText = ++oldPScore;
+    resetGame();
     return winLose();
 }
 
 function incrementGScore() {
     let oldGScore = parseInt(document.getElementById("goalie").innerText);
     document.getElementById("goalie").innerText = ++oldGScore;
+    resetGame();
     return winLose();
 }
+
+var delayInMilliseconds = 3000;
+
+function resetGame() {
+// implement delay for 2 seconds
+    setTimeout(() => {mainImage.src = "assets/images/Goalie_main.png";
+    mainImage.alt = "Game screen home, Goalkeeper standing in the goal";}, 2000);
+    // reset image to default image
+    
+        // enable buttons back
+}
+
+
 
 function winLose() {
     let gScore = parseInt(document.getElementById("goalie").innerText);
