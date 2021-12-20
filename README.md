@@ -29,6 +29,11 @@ This game will add a little bit of fun in to your day and is accessible on all d
 - Beat your friends best winning margins
 - Will keep the kids entertained for a while, giving parents time for a coffee
 
+# Structure of the website 
+
+The site is deigned and styled to be as user friendly as possible. The minimal look is easy to navigate. The 'Win' and 'Lose' images make it easy to recogise that the game has been won and the 'LETS GO AGAIN' button turning green indicates clearly to the user that it is to be pressed to restart the game. 
+The overall clarity makes it a good game for all ages and will offer a good user experience. 
+
 ## WIREFRAME
 
 ![Original site layotu plan](https://i.imgur.com/K06ohh7.png)
@@ -109,6 +114,7 @@ Included in the footer are the instructions on how to play.
 - Styling Language
 
 ### Google Fonts
+
 - As a font resource
 
 ### Font Awesome
@@ -132,6 +138,7 @@ Included in the footer are the instructions on how to play.
 - To create wireframe, screens mock up, game images and README images
 
 ### Imgur
+
 - Image hosting
 
 ### jshint.com
