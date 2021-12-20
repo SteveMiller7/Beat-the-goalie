@@ -228,7 +228,7 @@ jshint.com was especially helpful with finding faults in functions and rectifyin
 
 ***
 
-#  Deployment
+##  Deployment
 The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub. To deploy the project I had to:
 
 - Log in to GitHub and click on repository to deploy (Beat-the-goalie)
@@ -244,3 +244,27 @@ Log in to GitHub and click on repository to download (Beat-the-goalie)
 select `Code` and click Download the ZIP file.
 after download you can extract the file and use it in your local environment
 Alternatively you can Clone or Fork this repository (Beat-the-goalie) into your github account.
+
+***
+
+# Credits
+
+Initital creation of the project was done using Code Institute student template:
+
+- Gitpod full template
+
+### Ideas and coding guides:
+
+- www.w3schools.com
+- Diploma in Software Development (E-commerce Applications) from Code Institute.
+- Code Institute Love Maths JS Essential Project.
+- stackoverflow.com
+- Rock, Paper, Scissors walkthrough project from Code Institute.
+- geeksforgeeks.com
+- Bad Dog project for Code Institute.
+
+### Content
+
+- imgur.com
+- fontawesome.com
+- stock.adobe.com - licensed vectors which were used for custom graphics I made. 
