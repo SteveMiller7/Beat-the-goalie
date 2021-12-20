@@ -206,3 +206,9 @@ I used Lighthouse to check the performance of the site.
 
 ![Lighthouse test result](https://i.imgur.com/1a3a8wn.png)
 
+![Lighthouse warning 1](https://i.imgur.com/69M97FZ.png)
+
+This warning appeared in regard to the meta data. I added keywords and a description to the metadata which in turn brought the SEO score up from 90 to 100.
+
+![Update Lighthouse score](https://i.imgur.com/CiXLCOb.png)
+
