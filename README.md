@@ -157,6 +157,10 @@ Included in the footer are the instructions on how to play.
 
 - Validation of html
 
+### Lighthouse
+
+- Site performance testing
+
 # Testing
 
 ## Functionality testing
@@ -189,3 +193,13 @@ The footer 'HOW TO PLAY' text styling had to be adjust to suit smaller screens. 
 Element spacing on an iPad was adjusted to provide a better layout with media query. 
 
 My original plan was to have the game placholder image be replaced with a solid png image of the goalie and a transparent png image of the ball overlaying it when an arrow button was pressed. However this turned out to be a challenge so i rethought it and decided to use individual images for every possible combination of ball and goalie placments(9). 
+
+
+## Performance Testing
+
+### Original test
+
+I used Lighthouse to check the performance of the site. Improvments were made as shown below.
+
+![Screens mockup image](https://i.imgur.com/wbY0aIq.png)
+

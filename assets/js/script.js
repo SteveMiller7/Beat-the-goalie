@@ -22,31 +22,40 @@ function playGame(playerShotChoice) {
 
     if (goalieChoice === 1 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GLBL-01.png";
+        mainImage.alt = "Goalie left dive, ball left. Shot saved.";
         incrementGScore();
 
     } else if (goalieChoice === 1 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GLBM-01.png";
+        mainImage.alt = "Goalie left dive, ball middle. Goal.";
         incrementPScore();
     } else if (goalieChoice === 1 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GLBR-01.png";
+        mainImage.alt = "Goalie left dive, ball right. Goal.";
         incrementPScore();
     } else if (goalieChoice === 2 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GMBL-01.png";
+        mainImage.alt = "Goalie middle, ball left. Goal.";
         incrementPScore();
     } else if (goalieChoice === 2 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GMBM-01.png";
+        mainImage.alt = "Goalie middle, ball middle. Shot saved.";
         incrementGScore();
     } else if (goalieChoice === 2 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GMBR-01.png";
+        mainImage.alt = "Goalie middle, ball right. Goal.";
         incrementPScore();
     } else if (goalieChoice === 3 && playerShotChoice === "0") {
         mainImage.src = "assets/images/GRBL-01.png";
+        mainImage.alt = "Goalie right, ball left. Goal.";
         incrementPScore();
     } else if (goalieChoice === 3 && playerShotChoice === "1") {
         mainImage.src = "assets/images/GRBM-01.png";
+        mainImage.alt = "Goalie right, ball middle. Goal.";
         incrementPScore();
     } else if (goalieChoice === 3 && playerShotChoice === "2") {
         mainImage.src = "assets/images/GRBR-01.png";
+        mainImage.alt = "Goalie right, ball right. Shot saved.";
         incrementGScore();
     }
 
@@ -74,11 +83,13 @@ function winLose() {
 
     if (pScore == 10) {
         mainImage.src = "assets/images/WIN-01.png";
+        mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
 
     } else if (gScore == 5) {
         mainImage.src = "assets/images/LOSE-01.png";
+        mainImage.alt = "Lose";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
     }
