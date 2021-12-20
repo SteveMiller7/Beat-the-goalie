@@ -74,6 +74,7 @@ function incrementPScore() {
     document.getElementById("player").innerText = ++oldPScore;
     resetGame();
     winLose();
+    nextGame();
     
 }
 
@@ -82,6 +83,7 @@ function incrementGScore() {
     document.getElementById("goalie").innerText = ++oldGScore;
     resetGame();
     winLose();
+    nextGame();
     
 }
 
@@ -104,8 +106,8 @@ function winLose() {
         mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
+       
         
-
     } else if (gScore == 1) {
         mainImage.src = "assets/images/LOSE-01.png";
         mainImage.alt = "Lose";
@@ -116,6 +118,11 @@ function winLose() {
 }
 
 function nextGame() {
-
-
+    
+    if (pScore >= 1) {
+        return;
+    } else if (gScore >= 1) {
+    return;
+        
+}
 }

@@ -258,13 +258,13 @@ Initital creation of the project was done using Code Institute student template:
 - www.w3schools.com
 - Diploma in Software Development (E-commerce Applications) from Code Institute.
 - Code Institute Love Maths JS Essential Project.
-- stackoverflow.com
+- www.stackoverflow.com
 - Rock, Paper, Scissors walkthrough project from Code Institute.
-- geeksforgeeks.com
+- www.geeksforgeeks.com
 - Bad Dog project for Code Institute.
 
 ### Content
 
-- imgur.com
-- fontawesome.com
-- stock.adobe.com - licensed vectors which were used for custom graphics I made. 
+- www.imgur.com
+- www.fontawesome.com
+- www.stock.adobe.com - licensed vectors which were used for custom graphics I made. 
