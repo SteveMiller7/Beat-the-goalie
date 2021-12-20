@@ -19,8 +19,8 @@ body {
     
 }
 
-
 /* Heading */
+
 .heading {
   
   font-family: 'Kanit', sans-serif;
@@ -30,9 +30,7 @@ body {
     background-color: whitesmoke;
     word-spacing: 15px;
     letter-spacing: 3px;
-    line-height: 40px;
-    
-    
+    line-height: 40px;    
 }
 
 /* Scores section*/
@@ -43,7 +41,6 @@ body {
   margin-bottom: 10px; 
   padding-top: 10px;
   padding-bottom: 10px;
-  
 }
 
 .scores-div {
@@ -52,7 +49,6 @@ body {
   padding-left: 2.5em;
   padding-right: 2.5em;
 }
-
 
 /* Game Area */
 
@@ -70,15 +66,13 @@ body {
     
 }
 
-#main-image {
+  #main-image {
     display: block;
     height: auto;
     width: 100%;
   }
 
-
   /* Arrow Buttons */
-
 
   #left {
     transform: rotate(320deg);
@@ -135,20 +129,16 @@ footer {
   position: absolute;
   width: 100%;
   bottom: 0;
-
-  
 }
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 600px) {
   
-
   #mobile-instructions {
     display: none;
     
   }
 }
-
 
 @media screen and (max-width: 600px) {
 
@@ -169,6 +159,5 @@ footer {
   #game-container {
 
     margin-top: 60px;
-
 }
 }

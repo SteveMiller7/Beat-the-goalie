@@ -2,7 +2,6 @@
 let mainImage = document.getElementById("main-image");
 let buttons = document.getElementsByTagName("button");
 
-
 // Button click function to identify which direction player wants to shoot and trigger random number for goalie movement.
 
 for (let button of buttons) {
@@ -11,7 +10,6 @@ for (let button of buttons) {
         playGame(playerShotChoice);
     });
 }
-
 
 function playGame(playerShotChoice) {
 
@@ -58,8 +56,6 @@ function playGame(playerShotChoice) {
         mainImage.alt = "Goalie right, ball right. Shot saved.";
         incrementGScore();
     }
-
-
 }
 
 function incrementPScore() {
@@ -67,8 +63,6 @@ function incrementPScore() {
     document.getElementById("player").innerText = ++oldPScore;
     return winLose();
 }
-
-
 
 function incrementGScore() {
     let oldGScore = parseInt(document.getElementById("goalie").innerText);

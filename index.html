@@ -5,34 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="assets/css/style.css">
-<title>Beat The Goalie</title>
+    <title>Beat The Goalie</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&family=Varela+Round&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!-- Main header and Heading -->
+
     <div>
         <h1 class="heading">BEAT THE GOALIE</h1>
     </div>
+
+    <!-- Scores Bar --> 
+
     <div class="scores">
-        
+
         <div id="player-score" class="scores-div">Player:<span id="player"> 0</span></div>
         <div id="goalie-score" class="scores-div">Goalie:<span id="goalie"> 0</span></div>
-        
+
     </div>
+
+    <!-- Game Board -->
 
     <div id="game-container">
         <img id="main-image" src="assets/images/Goalie_main.png"
             alt="Game screen home, Goalkeeper standing in the goal">
-
-        
-
     </div>
+
+    <!-- Buttons -->
 
     <div class="arrows">
         <button id="left" aria-label="shoot-left" data-choice="0"><i class="fas fa-angle-double-up shoot"></i></button>
@@ -42,9 +48,14 @@
                 class="fas fa-angle-double-up shoot"></i></button>
     </div>
     <input type="button" value="LETS GO AGAIN" onClick="location.href=location.href" id="lets-go">
-    <footer id="instructions">HOW TO PLAY:  &nbsp;&nbsp;&nbsp;&nbsp; Press a direction arrow to shoot &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;Score 10 before the keeper saves 5</footer>
-    <footer id="mobile-instructions">HOW TO PLAY:<br>Press a direction arrow to shoot<br>Score 10 before the keeper saves 5</footer>
+
+    <!-- Footer with instructions -->
     
+    <footer id="instructions">HOW TO PLAY: &nbsp;&nbsp;&nbsp;&nbsp; Press a direction arrow to shoot
+        &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;Score 10 before the keeper saves 5</footer>
+    <footer id="mobile-instructions">HOW TO PLAY:<br>Press a direction arrow to shoot<br>Score 10 before the keeper
+        saves 5</footer>
+
     <script src="assets/js/script.js"></script>
 </body>
 
