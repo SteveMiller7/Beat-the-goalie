@@ -203,3 +203,5 @@ I used Lighthouse to check the performance of the site. Improvments were made as
 
 ![Screens mockup image](https://i.imgur.com/wbY0aIq.png)
 
+![Screens mockup image](https://i.imgur.com/1a3a8wn.png)
+
