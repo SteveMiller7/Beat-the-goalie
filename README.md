@@ -41,20 +41,24 @@ The overall clarity makes it a good game for all ages and will offer a good user
 Using Adobe Illustrator I created my website plan. I had a good idea of the styling in mind when first imagining the site. Modern, clean lines and aesthetically pleasing were important. As its a game for all ages I thought the cartoon style for the game would be most suitable. 
 
 # Aesthetics
+
 The look of the site was created with the aim of being clean, fun and modern.
 
 I didnt want to make it too fussy and take away the focus from the nice custom made game visuals. 
 
 ## Colour Palette
+
 - Grey color: #575756
 - Background-color gainsboro
 - White
 
 ## Fonts
+
 - Heading - Kanit (Google Fonts)
 - Body - Varela Round (Google Fonts)
 
 ## Images
+
 Paid licensed images were sourced from stock.adobe.com and formatted on Adobe Illustrator. I have used Imgur as a hosting site for the images included in the README. 
 
 ## Icons 
@@ -153,3 +157,19 @@ Included in the footer are the instructions on how to play.
 
 - Validation of html
 
+# Testing
+
+## Functionality testing
+
+I used Chrome developer tools throughout the project for testing and solving problems with responsiveness and style issues.
+
+I refered to jshint.com regularly to solve issues with my javascript code. This worked really well. 
+My html and css code was validated on jigsaw.w3.org and validator.w3.org. 
+
+## Compatibility testing
+
+Site was tested across multiple virtual mobile devices and browsers. I checked all supported devices with Chrome developer tools.
+
+I tested on hardware devices such as: iMac, macbook pro, i hpone 8, i phone 11, I pad and Galaxy Z Flip phone and all worked well. 
+
+An issue I noticed on iPhone and iPad was the button styling didnt come across for my 'LETS GO AGAIN' button. After researching the issue via stackoverflow.com I managed to resolve it by adding code to my css file.

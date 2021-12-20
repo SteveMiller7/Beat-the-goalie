@@ -3,6 +3,12 @@
   padding: 0;
 }
 
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+
 body {
   
     font-family: 'Varela Round', sans-serif;
@@ -10,6 +16,7 @@ body {
     text-align: center;
     display: block;
     background-color: whitesmoke;
+    
 }
 
 
