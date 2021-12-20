@@ -109,7 +109,7 @@ body {
 /* Lets go again button */
 
 #lets-go {
-    border-radius: 8px;
+    
     padding: 8px 30px;
     border: none;
     font-size:12px;
@@ -163,4 +163,5 @@ footer {
 
     margin-top: 60px;
 
-}}
+}
+}
