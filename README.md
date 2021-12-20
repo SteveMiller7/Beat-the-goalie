@@ -87,13 +87,13 @@ The main placeholder image for the game was also custom made in Adobe Illustrato
 
 ### Score Bar
 
-![Game placeholder image](https://i.imgur.com/SB9RMam.png)
+![Scorebar image](https://i.imgur.com/SB9RMam.png)
 
 The score bar contains the 'Player' and 'Goalie' scores. These scores are incremented upon a goal being scored by the user or a save being made by the goalie. The user must try to score 10 goals before the goalie makes 5 saves. The points targets were decided after testing the game a number of times to establish the difiiculty. Originally it was first to reach 10 but it was too easy to win. There ar 6 winning images for the player to the 3 winning images for the goalie (a ratio of 2 to 1). I found that targets of 10 points for the player and 5 points for the goalie worked really well and balanced the game.
 
 ### Buttons
 
-![Game placeholder image](https://i.imgur.com/vUA1Nf3.png)
+![Game buttons image](https://i.imgur.com/vUA1Nf3.png)
 
 Choosing a direction to shoot will send the ball towards the goal and will result in a goal or a save being made by the goalie. Ive given them minimal clean styling. The arrows work well with the overall look of the page. 
 Added below the shoot buttons is a 'LETS GO AGAIN' button which turns green when a winning score is reached, refreshes the page and resets the score so a new game can commence. 
@@ -101,7 +101,7 @@ Added below the shoot buttons is a 'LETS GO AGAIN' button which turns green when
 
 ### Footer
 
-![Game placeholder image](https://i.imgur.com/n3fPBFU.png)
+![Footer image](https://i.imgur.com/n3fPBFU.png)
 
 Included in the footer are the instructions on how to play.
 - Press a direction arrow to shoot
@@ -187,6 +187,7 @@ I offered the game to friends and family throughout the process of construction 
 ## Issues Found During Development
 
 An issue I noticed on iPhone and iPad was the button styling didnt come across for my 'LETS GO AGAIN' button. After researching the issue via stackoverflow.com I managed to resolve it by adding code to my css file.
+![code to sort button styling on devices](https://i.imgur.com/GWHfuLq.png)
 
 The footer 'HOW TO PLAY' text styling had to be adjust to suit smaller screens. This was sorted with a medi query. 
 
@@ -199,9 +200,7 @@ My original plan was to have the game placholder image be replaced with a solid 
 
 ### Original test
 
-I used Lighthouse to check the performance of the site. Improvments were made as shown below.
+I used Lighthouse to check the performance of the site. 
 
-![Screens mockup image](https://i.imgur.com/wbY0aIq.png)
-
-![Screens mockup image](https://i.imgur.com/1a3a8wn.png)
+![Lighthouse test result](https://i.imgur.com/1a3a8wn.png)
 
