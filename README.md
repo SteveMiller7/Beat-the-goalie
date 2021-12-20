@@ -184,6 +184,8 @@ I offered the game to friends and family throughout the process of construction 
 
 - Another addition from the feedback was to add a 'Win' or 'Lose' image when the score target had been met as the game would go on forever. At this point I realised I needed to add the button to restart the game. I then decided that making this button turn green when a winner was declared would draw the users attention to it and encourage them to press it to refresh the game and scores. 
 
+- Originally the goalie image didnt reset to his starting position after each shot. I changed it and gave the game image a 1.5 second display time. I also delayed the game buttons by the same time to allow the main game image to reest.
+
 ## Issues Found During Development
 
 An issue I noticed on iPhone and iPad was the button styling didnt come across for my 'LETS GO AGAIN' button. After researching the issue via stackoverflow.com I managed to resolve it by adding code to my css file.

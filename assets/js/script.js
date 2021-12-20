@@ -99,14 +99,14 @@ function winLose() {
     let pScore = parseInt(document.getElementById("player").innerText);
     let letsGo = document.getElementById("lets-go");
     
-    if (pScore == 1) {
+    if (pScore == 10) {
         mainImage.src = "assets/images/WIN-01.png";
         mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
         
 
-    } else if (gScore == 1) {
+    } else if (gScore == 5) {
         mainImage.src = "assets/images/LOSE-01.png";
         mainImage.alt = "Lose";
         letsGo.style.backgroundColor = "green";
