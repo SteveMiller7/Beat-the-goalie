@@ -221,6 +221,10 @@ This warning appeared in regard to the meta data. I added keywords and a descrip
 ### Final Results
 
 ![Update Lighthouse score](https://i.imgur.com/TeTHfdI.png)
+![Update Lighthouse performance](https://i.imgur.com/wOu0ggb.png)
+![Update Lighthouse best practices](https://i.imgur.com/5JnG01i.png)
+![Update Lighthouse best accessibility](https://i.imgur.com/IjoEPmQ.png)
+![Update Lighthouse best SEO](https://i.imgur.com/4qPpyL2.png)
 
 Good results accross the board after the change to the meta information warning. 
 
