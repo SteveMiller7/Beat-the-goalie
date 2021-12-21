@@ -74,7 +74,8 @@ function incrementPScore() {
     document.getElementById("player").innerText = ++oldPScore;
     resetGame();
     winLose();
-    nextGame();
+    
+    //nextGame();
     
 }
 
@@ -83,7 +84,8 @@ function incrementGScore() {
     document.getElementById("goalie").innerText = ++oldGScore;
     resetGame();
     winLose();
-    nextGame();
+    
+    //nextGame();
     
 }
 
@@ -101,14 +103,13 @@ function winLose() {
     let pScore = parseInt(document.getElementById("player").innerText);
     let letsGo = document.getElementById("lets-go");
     
-    if (pScore == 1) {
+    if (pScore == 10) {
         mainImage.src = "assets/images/WIN-01.png";
         mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
-       
         
-    } else if (gScore == 1) {
+    } else if (gScore == 5) {
         mainImage.src = "assets/images/LOSE-01.png";
         mainImage.alt = "Lose";
         letsGo.style.backgroundColor = "green";
@@ -117,12 +118,4 @@ function winLose() {
     }
 }
 
-function nextGame() {
-    
-    if (pScore >= 1) {
-        return;
-    } else if (gScore >= 1) {
-    return;
-        
-}
-}
+
