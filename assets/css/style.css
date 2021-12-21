@@ -11,11 +11,11 @@ input {
 
 body {
   
-    font-family: 'Varela Round', sans-serif;
-    color: #575756;
-    text-align: center;
-    display: block;
-    background-color: whitesmoke;
+  font-family: 'Varela Round', sans-serif;
+  color: #575756;
+  text-align: center;
+  display: block;
+  background-color: whitesmoke;
     
 }
 
@@ -24,13 +24,13 @@ body {
 .heading {
   
   font-family: 'Kanit', sans-serif;
-    text-align: center;
-    font-size: 40px;
-    padding: 10px 0 10px 0;
-    background-color: whitesmoke;
-    word-spacing: 15px;
-    letter-spacing: 3px;
-    line-height: 40px;    
+  text-align: center;
+  font-size: 40px;
+  padding: 10px 0 10px 0;
+  background-color: whitesmoke;
+  word-spacing: 15px;
+  letter-spacing: 3px;
+  line-height: 40px;    
 }
 
 /* Scores section*/
@@ -55,69 +55,69 @@ body {
 #game-container {
   
     
-    box-sizing: border-box;
-    width: 90%;
-    position: relative;
-    max-height: 450px;
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+  box-sizing: border-box;
+  width: 90%;
+  position: relative;
+  max-height: 450px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
     
 }
 
-  #main-image {
-    display: block;
-    height: 100%;
-    width: 100%;
-  }
+#main-image {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 
-  /* Arrow Buttons */
+/* Arrow Buttons */
 
-  #left {
-    transform: rotate(320deg);
-    margin-right: 50px;
-    border-radius: 50%;
-    padding: 16px 22px;
-    border: none;
-    font-size: 25px;
-    color: #575756;
-    background-color: gainsboro;
-  }
+#left {
+  transform: rotate(320deg);
+  margin-right: 50px;
+  border-radius: 50%;
+  padding: 16px 22px;
+  border: none;
+  font-size: 25px;
+  color: #575756;
+  background-color: gainsboro;
+}
   
-  #right {
-    transform: rotate(40deg);
-    margin-left: 50px;
-    border-radius: 50%;
-    padding: 16px 22px;
-    border: none;
-    font-size: 25px;
-    color: #575756;
-    background-color: gainsboro;
+#right {
+  transform: rotate(40deg);
+  margin-left: 50px;
+  border-radius: 50%;
+  padding: 16px 22px;
+  border: none;
+  font-size: 25px;
+  color: #575756;
+  background-color: gainsboro;
   }
 
-  #middle {
-    border-radius: 50%;
-    padding: 16px 22px;
-    margin-bottom: 25px;
-    margin-top: 20px;
+#middle {
+  border-radius: 50%;
+  padding: 16px 22px;
+  margin-bottom: 25px;
+  margin-top: 20px;
     border: none;
-    font-size: 25px;
-    color: #575756;
-    background-color: gainsboro;
-  }
+  font-size: 25px;
+  color: #575756;
+  background-color: gainsboro;
+}
 
 /* Lets go again button */
 
 #lets-go {
     
-    padding: 8px 30px;
-    border: none;
-    font-size:12px;
-    color: #575756;
-    background-color: gainsboro;
-    margin-bottom: 25px;
-    font-weight: 600;
+  padding: 8px 30px;
+  border: none;
+  font-size:12px;
+  color: #575756;
+  background-color: gainsboro;
+  margin-bottom: 25px;
+  font-weight: 600;
 }
   
 /* Footer */
@@ -142,9 +142,10 @@ footer {
 
 @media screen and (max-width: 600px) {
 
-footer {
-  font-size: 12px;
-}}
+  footer {
+    font-size: 12px;
+  }
+}
 
 @media only screen and (max-width: 1100px) and (min-width: 700px)  {
 
@@ -159,5 +160,5 @@ footer {
   #game-container {
 
     margin-top: 60px;
-}
+  }
 }

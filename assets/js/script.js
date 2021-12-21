@@ -6,20 +6,22 @@ let buttons = document.getElementsByTagName("button");
 // Button click function to identify which direction player wants to shoot and trigger random number for goalie movement.
 
 for (let button of buttons) {
-    
+
     button.addEventListener("click", function () {
         //disables buttons for 1.5 seconds after shot is taken
         document.getElementById("left").disabled = true;
-        setTimeout(function(){document.getElementById("left").disabled = false;},1500);
+        setTimeout(function () { document.getElementById("left").disabled = false; }, 1500);
         document.getElementById("middle").disabled = true;
-        setTimeout(function(){document.getElementById("middle").disabled = false;},1500);
+        setTimeout(function () { document.getElementById("middle").disabled = false; }, 1500);
         document.getElementById("right").disabled = true;
-        setTimeout(function(){document.getElementById("right").disabled = false;},1500);
+        setTimeout(function () { document.getElementById("right").disabled = false; }, 1500);
         let playerShotChoice = this.getAttribute("data-choice");
         playGame(playerShotChoice);
     });
-   
+
 }
+
+//Main game function
 
 function playGame(playerShotChoice) {
 
@@ -66,17 +68,17 @@ function playGame(playerShotChoice) {
         mainImage.alt = "Goalie right, ball right. Shot saved.";
         incrementGScore();
     }
-    
+
 }
+
+// Functions for tallying socres
 
 function incrementPScore() {
     let oldPScore = parseInt(document.getElementById("player").innerText);
     document.getElementById("player").innerText = ++oldPScore;
     resetGame();
     winLose();
-    
-    //nextGame();
-    
+
 }
 
 function incrementGScore() {
@@ -84,38 +86,64 @@ function incrementGScore() {
     document.getElementById("goalie").innerText = ++oldGScore;
     resetGame();
     winLose();
-    
-    //nextGame();
-    
+
 }
 
 function resetGame() {
-// implements reset to main game image after 1.5 seconds of a button being pressed
-    setTimeout(() => {mainImage.src = "assets/images/Goalie_main.png";
-    mainImage.alt = "Game screen home, Goalkeeper standing in the goal";}, 1500);
+    // implements reset to main game image after 1.5 seconds of a button being pressed
+    setTimeout(() => {
+        mainImage.src = "assets/images/Goalie_main.png";
+        mainImage.alt = "Game screen home, Goalkeeper standing in the goal";
+    }, 1500);
 
 }
 
-
+/** This function displays a win or lose image function depending on the result.
+ * It also changes the 'LETS GO AGAIN; button te green and removes the arrow buttons div when the game is finished. 
+*/
 
 function winLose() {
     let gScore = parseInt(document.getElementById("goalie").innerText);
     let pScore = parseInt(document.getElementById("player").innerText);
     let letsGo = document.getElementById("lets-go");
-    
+
     if (pScore == 10) {
-        mainImage.src = "assets/images/WIN-01.png";
-        mainImage.alt = "Win";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
-        
+        win();
+        nextGame();
     } else if (gScore == 5) {
-        mainImage.src = "assets/images/LOSE-01.png";
-        mainImage.alt = "Lose";
         letsGo.style.backgroundColor = "green";
         letsGo.style.color = "white";
-        
+        lose();
+        nextGame();
     }
 }
 
+// Removes arrow buttons div 
 
+function nextGame() {
+
+    document.getElementById("arrow-buttons").style.display = "none";
+
+}
+
+// Displays Win image
+
+function win() {
+    setTimeout(() => {
+        mainImage.src = "assets/images/WIN-01.png";
+        mainImage.alt = "Win";
+    }, 1550);
+}
+
+// Displays Lose image
+
+function lose() {
+
+    setTimeout(() => {
+        mainImage.src = "assets/images/LOSE-01.png";
+        mainImage.alt = "Lose";
+    }, 1550);
+
+}
