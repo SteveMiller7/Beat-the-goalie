@@ -3,11 +3,15 @@
   padding: 0;
 }
 
+/* Code to stop styling being defaulted on devices */ 
+
 input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   }
+
+  /* Body styling*/
 
 body {
   

@@ -21,7 +21,7 @@ for (let button of buttons) {
 
 }
 
-//Main game function
+//Main game function which will display the correct image according to the shot choice and random goalie number.
 
 function playGame(playerShotChoice) {
 
@@ -89,6 +89,8 @@ function incrementGScore() {
 
 }
 
+// Function to reset the game image to the placeholder after every shot is taken. 
+
 function resetGame() {
     // implements reset to main game image after 1.5 seconds of a button being pressed
     setTimeout(() => {
@@ -120,7 +122,7 @@ function winLose() {
     }
 }
 
-// Removes arrow buttons div 
+// Removes arrow buttons div so game cant be played past the winning scores.
 
 function nextGame() {
 
@@ -128,7 +130,7 @@ function nextGame() {
 
 }
 
-// Displays Win image
+// Displays Win image. timeout set so it stays on screen at the end
 
 function win() {
     setTimeout(() => {
@@ -137,7 +139,7 @@ function win() {
     }, 1550);
 }
 
-// Displays Lose image
+// Displays Lose image. Timeout set so it stays on screen at the end
 
 function lose() {
 
