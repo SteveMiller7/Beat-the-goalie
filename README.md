@@ -9,6 +9,8 @@ Play it on the sofa, at the park, on the toilet or even when you're meant to be 
 ![Screens mockup image](https://i.imgur.com/pWgWpzh.png)
 ## Visit the site at (https://stevemiller7.github.io/Beat-the-goalie/)
 
+***
+
 ## Application Objectives
 
 This game will add a little bit of fun in to your day and is accessible on all devices. Its simple, fun and can be played by all ages. With a winner established in each game it encourages the user back to seek revenge if the goalie bests them.
@@ -28,6 +30,8 @@ This game will add a little bit of fun in to your day and is accessible on all d
 - Try to beat previous best winning margin
 - Beat your friends best winning margins
 - Will keep the kids entertained for a while, giving parents time for a coffee
+
+***
 
 # Structure of the website 
 
@@ -64,6 +68,8 @@ Paid licensed images were sourced from stock.adobe.com and formatted on Adobe Il
 ## Icons 
 
 Arrows and favicon were sourced from fontawesome.com
+
+***
 
 # FEATURES
 
@@ -161,6 +167,8 @@ Included in the footer are the instructions on how to play.
 
 - Site performance testing
 
+***
+
 # Testing
 
 ## Functionality testing
@@ -212,7 +220,7 @@ This warning appeared in regard to the meta data. I added keywords and a descrip
 
 ### Final Results
 
-![Update Lighthouse score](https://i.imgur.com/CiXLCOb.png)
+![Update Lighthouse score](https://i.imgur.com/TeTHfdI.png)
 
 Good results accross the board after the change to the meta information warning. 
 
@@ -261,7 +269,7 @@ Initital creation of the project was done using Code Institute student template:
 - www.stackoverflow.com
 - Rock, Paper, Scissors walkthrough project from Code Institute.
 - www.geeksforgeeks.com
-- Bad Dog project for Code Institute.
+- My own Bad Dog project done for Code Institute.
 
 ### Content
 
